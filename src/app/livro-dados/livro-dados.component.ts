@@ -5,11 +5,12 @@ import { ControleEditoraService } from '../controle-editora.service';
 import { ControleLivrosService } from '../controle-livros.service';
 import { Editora } from '../editora';
 import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-livro-dados',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule, CommonModule],
   templateUrl: './livro-dados.component.html',
   styleUrl: './livro-dados.component.css',
 })

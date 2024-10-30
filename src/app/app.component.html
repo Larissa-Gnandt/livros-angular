@@ -4,10 +4,10 @@
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" routerLink="/lista">Catálogo</a>
+          <a class="nav-link" href="/lista">Catálogo</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/dados">Novo</a>
+          <a class="nav-link" href="/dados">Novo</a>
         </li>
       </ul>
     </div>
@@ -166,6 +166,11 @@
 
   .social-links a:hover svg path {
     fill: var(--gray-900);
+  }
+
+  .navbar {
+    position: relative;
+    z-index: 10;
   }
 
   @media screen and (max-width: 650px) {
