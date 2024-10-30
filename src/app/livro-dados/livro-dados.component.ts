@@ -4,11 +4,12 @@ import { Livro } from '../livro';
 import { ControleEditoraService } from '../controle-editora.service';
 import { ControleLivrosService } from '../controle-livros.service';
 import { Editora } from '../editora';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-livro-dados',
   standalone: true,
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './livro-dados.component.html',
   styleUrl: './livro-dados.component.css',
 })
