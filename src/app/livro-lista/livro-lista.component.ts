@@ -3,11 +3,12 @@ import { ControleEditoraService } from '../controle-editora.service';
 import { ControleLivrosService } from '../controle-livros.service';
 import { Editora } from '../editora';
 import { Livro } from '../livro';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-livro-lista',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './livro-lista.component.html',
   styleUrl: './livro-lista.component.css',
 })
