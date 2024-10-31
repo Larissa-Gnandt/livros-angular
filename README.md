@@ -1,27 +1,66 @@
-# LivrosAngular
+# Catálogo de Livros
+Este projeto é um site de catálogo de livros, desenvolvido em [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10. A aplicação permite gerenciar um banco de dados de livros, onde é possível visualizar, incluir e excluir um livro desejado.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+## Funcionalidades
+- Exibição de um catálogo de livros com as seguintes informações:
 
-## Development server
+    - Título 
+    - Editora
+    - Resumo
+    - Autores
+- Adicionar novos livros ao catálogo
+- Excluir livros do catálogo
+- Navegação rápida entre os detalhes dos livros
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologias Utilizadas
+- **Angular CLI 18.2.10:** Ferramenta de linha de comando para iniciar e gerenciar projetos Angular, facilitando a criação de componentes, serviços e configurações de build.
+- **Angular:** Framework JavaScript para construção de aplicações web dinâmicas, com suporte a renderização eficiente de componentes e estrutura modular.
+- **CSS/SCSS:** Utilizado para estilização de páginas e componentes, com SCSS permitindo o uso de variáveis, aninhamentos e outras funcionalidades avançadas de CSS.
+- **JavaScript/TypeScript:** Linguagens principais no desenvolvimento, onde o TypeScript proporciona tipagem estática e recursos avançados para melhor desempenho e escalabilidade no código.
 
-## Code scaffolding
+## Como Rodar o Projeto
+### Requisitos
+- **Node.js**
+- **Angular CLI** instalado globalmente
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Passo a Passo
+1. Clone este repositório:
+```
+git clone https://github.com/Larissa-Gnandt/livros-angular
+````
+2. Acesse o diretório do projeto:
+````
+cd livros-angular
+````
+3. Execute o servidor de desenvolvimento:
+`````
+ng serve
+`````
 
-## Build
+Acesse o projeto no navegador em http://localhost:4200. O aplicativo recarregará automaticamente ao modificar qualquer arquivo.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
