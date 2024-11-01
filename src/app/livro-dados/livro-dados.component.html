@@ -7,7 +7,7 @@
         </div>
         <div class="mb-3">
             <label for="resumo" class="form-label">Resumo</label>
-            <textarea class="form-control" id="resumo" [(ngModel)]="livro.resumo" name="resumo"></textarea>
+            <textarea class="form-control" id="resumo" required [(ngModel)]="livro.resumo" name="resumo"></textarea>
         </div>
         <div class="mb-3">
             <label for="editora" class="form-label">Editora</label>
@@ -21,7 +21,7 @@
         </div>
         <div class="mb-3">
             <label for="autores" class="form-label">Autores (um por linha)</label>
-            <textarea class="form-control" id="autores" [(ngModel)]="autoresForm" name="autores"></textarea>
+            <textarea class="form-control" id="autores" required [(ngModel)]="autoresForm" name="autores"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Salvar Dados</button>
     </form>
