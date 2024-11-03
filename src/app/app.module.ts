@@ -6,8 +6,8 @@ import { LivroDadosComponent } from './livro-dados/livro-dados.component';
 import { ControleLivrosService } from './controle-livros.service';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { routes } from './app.routes';
 import { CommonModule } from '@angular/common';
+import { routes } from './app.routes';
 
 @NgModule({
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
